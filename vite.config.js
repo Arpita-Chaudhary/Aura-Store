@@ -89,6 +89,7 @@ function razorpayApiPlugin() {
 }
 
 export default defineConfig({
+  base: './',
   plugins: [react(), razorpayApiPlugin()],
   server: {
     port: 5173,
